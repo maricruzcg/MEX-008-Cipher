@@ -2,13 +2,67 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>WeEncrypt</title>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+    <header id="title">
+  <div class="contenedor">
+    <div class="logo">
+      <img src="imagenes/logo.png" alt="">
+
+      <nav>
+        <ul>
+          <li><a href="#">Cifrar</a></li>
+          <li><a href="#">Descifrar</a></li>
+        </ul>
+      </nav>
+
     </div>
+  </div>
+
+</header>
+<section id="description" class="page-one">
+
+      <p>WeEncrypt te ayuda a cifrar y descifrar un link, <br>
+        una ubicación geográfica o información confidencial <br> para que puedas enviarlo
+        de manera segura por la red. <br> Evita que tu información sea leída por otras
+        personas <br> y utiliza WeEncrypt, que es fácil y rápida de usar.</p>
+
+        <label for="">Usuario</label>
+        <input id="input-name" type="text" placeholder="Usuario"> <br>
+        <label for="">Email</label>
+        <input id="input-email" type="text" placeholder="E-mail"> <br>
+        <label for="">Password</label>
+        <input id="input-password" type="text" placeholder="Password"> <br>
+        <button id="button-sesion">Iniciar Sesión</button>
+
+        <p>¿Aun no tienes cuenta?</p>
+        <a href="#">Registrate</a> <br>
+
+        <h1>¿Cómo puedo cifrar mi información?</h1>
+        <p>Es muy sencillo, solo tienes que seguir los siguientes pasos:</p>
+        <p>1. Coloca en la caja de texto la información que quieras cifrar.</p>
+        <p>2. Es muy importante que pongas el número de seguridad. <br>
+          No importa el número, solo que sea del 1 en adelante</p>
+        <p>3. Listo tu informarción ha sido cifrada. Para compartirla solo <br>
+          necesitas copiarla o compartirla con el botón de compartir.</p>
+        <p>4. Si tu destinatario quiere conocer el contenido de tu información, <br>
+          solo tiene que ingresar el cifrado en la opción de descifrar y tu mensaje podrá ser leido.</p>
+
+    </section>
+
+    <section id="cifrar" class="page-two">
+      <p id="welcome"></p>
+      <h2>Cifremos tu información</h2>
+      <input id="input-cifrar" type="text" placeholder="Escribe tu información"> <br>
+      <label for="">N° de Seguridad</label>
+      <input id="number-security" type="text">
+      <button id="code">Cifrar</button>
+
+    </section>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
