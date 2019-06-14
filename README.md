@@ -1,3 +1,23 @@
+# WeEncrypt
+
+WeEncrypt es un proyecto de aplicación web cuya finalidad es que el usuario pueda enviar de manera segura un link, ubicación o información de contenido confidencial por medio del cifrado.
+
+# Proceso y decisiones de Diseño  
+
+La idea surge a raíz de solucionar el problema de seguridad al momento de compartir información por medio de cualquier medio digital.
+En la propuesta de diseño se busca que el usuario tenga una experiencia intuitiva y de fácil manejo. Se busca que se sienta seguro en el sitio, por esta razón se decidió diseñar un espacio donde se le explique al usuario de manera breve el proyecto, así como un pequeño y fácil instructivo.
+Para el diseño de interfaz se busca solucionar con una idea minimalista y sencilla, que cumpla con el objetivo de la aplicación.
+
+# Usuarios 
+
+El usuario de la aplicación tiene un rango de edad muy amplio, de 15 años en adelante. Llegaría a todo usuario que tenga la necesidad de enviar de manera confidencial contenido importante ya sea de carácter personal o empresarial.
+El objetivo del usuario con la aplicación es enviar de forma segura información confidencial de un link o la ubicación geográfica de objetos de valor a algún contacto, el cual solo podrá ser descifrado con el código de seguridad que el mismo usuario le proporcione.
+La aplicación busca resolver el problema de la seguridad en línea, para evitar la filtración de información confidencial.
+
+
+
+
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
