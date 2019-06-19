@@ -1,18 +1,12 @@
 .page-two{
   display: none;
 }
+
 body{
-  background-image: url(imagenes/fondo-registro.png);
+  background-image: url(imagenes/fondocompleto-05.png);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: top center bottom;
   font-family: 'Comfortaa', cursive;
-
-}
-
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
 }
 
 .contenedor{
@@ -24,38 +18,78 @@ body{
   width: 95%;
   max-width: 1000px;
   margin: auto;
-  font-size: 100%;
-  line-height: 22px;
+  font-size: 110%;
+  line-height: 25px;
   text-align: left;
-  padding: 25px 10px;
+  padding: 40px 50px;
+  color: #fff;
 }
-.registro{
-  width: 95%;
-  max-width: 1200px;
-  margin: auto;
+
+#definition{
+  display:block;
+  text-align: left;
+  width: 55%;
+  padding: 40px 0px 50px 0px;
+  font-size: 108%;
+  line-height: 27px;
 }
+#inputs{
+  width: 60%;
+  display: block;
+  margin-left: 10%;
+
+}
+#input-name{
+  margin: 10px 20px;
+}
+#input-password{
+  margin: 10px 6px;
+}
+#button-sesion{
+  padding: 8px;
+  margin: 15px 80px;
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Comfortaa', cursive;
+  background-color: #EF3598;
+  border-radius: 10px;
+  white-space: nowrap;
+  border: 5px #EF3598;
+
+}
+#registro{
+  font-size: 15px;
+
+}
+#link{
+  color: #B3C9FF;
+  font-size: 15px;
+  padding: 0px;
+}
+
 header nav{
-  background: transparent;
+  background-color: transparent;
   margin-bottom: 10px;
 }
-  header nav ul {
+  header nav ol {
     list-style: none;
     overflow: hidden;
   }
-    header nav ul li{
+    header nav ol li{
       display: inline-block;
       padding-top: 10px;
     }
-      header nav ul li a{
+      header nav ol li a{
         display: block;
         padding: 10px;
         color: #141D38;
         text-decoration: none;
-        font-weight: normal;
+        font-weight: bold;
         transition: all 0.4s linear;
         border-radius: 5px;
+        font-size: 110;
       }
-      header nav ul li a:hover {
+      header nav ol li a:hover {
         background: #EDF4FF;
       }
       .logo{
@@ -70,7 +104,15 @@ header nav{
         font-size: 102%;
         line-height: 22px;
         text-align: left;
-        padding: 20px 0px 30px 10px;
+        padding: 30px 0px 60px 10px;
+      }
+      h1{
+        color: #141D38;
+        text-align: center;
+        padding-top: 100px;
+      }
+      #instructions{
+        color: #141D38;
       }
       #cifrar{
         width: 95%;
@@ -80,6 +122,7 @@ header nav{
         line-height: 22px;
         text-align: left;
         padding: 25px 10px;
+
       }
         #input-cifrar{
           width: 300px;
