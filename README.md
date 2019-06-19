@@ -1,3 +1,58 @@
+# WeEncrypt
+
+## Definición
+
+En la actualidad el enviar mensajes y documentos  importantes por internet es una necesidad, sin embargo, el enviarlo por un algún servicio de mensajería o subirlo a cualquier servicio en la nube no nos garantiza al 100% que nuestra información sea confidencial y privada.
+
+**WeEncrypt**  busca que sus usuarios se sientan seguros al enviar la información confidencial por internet. Ya que codifica la información o los links donde están alojados los documentos evitando de cualquier persona sin autorización pueda verlos o leerlos.
+
+## ¿Qué es WeEncrypt?
+
+**WeEncrypt** es un proyecto de aplicación web cuya finalidad es que el usuario pueda enviar por internet de manera segura un link, ubicación o información de contenido confidencial por medio del cifrado y una clave para poder ejecutarlos o leerlos.
+
+## ¿Cómo funciona?
+
+1.	Es muy sencillo de usar, primero tienes que entrar al sitio web de la aplicación. Debes iniciar sesión o registrarte para poder enviar tu información.
+2.	En la página de inicio cuentas con un instructivo que puedes visualizar todas las veces que puedas ya que se encuentra en el menú.
+3.	Cuando inicias sesión te direcciona de manera instantánea al área de cifrado. En la primera caja de texto puedes escribir la información que quieres cifrar.
+4.	En la segunda caja de texto debes de anotar el número de seguridad, este número es muy importante pues permitirá que tu información pueda ser descifrada después por tu destinatario. 
+5.	Y listo para terminar solo tienes que dar clic en el botón de cifrar.
+6.	 Te aparecerá una pantalla con la información cifrada y un botón de copiar o compartir.
+7.	Si deseas compartirlo solo te pedirá el email de tu destinatario.
+8.	Si quieres descifrar la información solo necesitas ir al menú y seleccionar la opción de descifrar.
+9.	En la primera caja de texto anota el cifrado, la clave de seguridad que te proporciono tu contacto y da clic en el botón de descifrar.
+10.	Listo haz descifrado el código.
+
+# Usuario
+
+## Perfil del usuario
+
+**Rango de edad:** 18 años a 60 años.
+**Ocupación:** Estudiantes, empleados, empresarios.
+**Información que codificarían:** enlaces de documentos confidenciales, ubicación geográfica, mensajes de trabajo.
+
+## Objetivo
+
+El objetivo del usuario con la aplicación es enviar de forma segura información confidencial de un link, la ubicación geográfica de objetos de valor a algún contacto, un mensaje, documentos, etc. el cual solo podrá ser descifrado con el código de seguridad que el mismo usuario le proporcione.
+
+La aplicación busca resolver el problema de la seguridad en línea, para evitar la filtración de información confidencial.
+Interfaz del usuario.
+
+En la propuesta de diseño se busca que el usuario tenga una experiencia intuitiva y de fácil manejo. Se busca que se sienta seguro en el sitio, por esta razón se decidió diseñar un espacio donde se le explique al usuario de manera breve el proyecto, así como un pequeño y fácil instructivo.
+
+Para el diseño de interfaz se busca solucionar con una idea minimalista y sencilla, que cumpla con el objetivo de la aplicación. Por lo que se decidió tener solo tres pantallas: **pantalla de inicio (pantalla para iniciar sesión e instructivo), pantalla de cifrado y pantalla de descifrado.**
+
+# Diseño de interfaz
+
+A continuación se presentan las pantallas de testeo que se utilizaron con la aplicación Marvel:
+
+También a continuación se presenta el diagrama de flujo.
+
+
+
+
+
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
