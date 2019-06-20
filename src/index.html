@@ -45,20 +45,20 @@
           <a id="link" href="#">Registrate</a> <br>
 
         </article>
+        <section id="instructions">
 
-
-        <main id="instructions">
           <h1>¿Cómo puedo cifrar mi información?</h1>
-          <p>Es muy sencillo, solo tienes que seguir los siguientes pasos:</p>
-          <p>1. Coloca en la caja de texto la información que quieras cifrar.</p>
-          <p>2. Es muy importante que pongas el número de seguridad. <br>
-            No importa el número, solo que sea del 1 en adelante.</p>
-          <p>3. Listo tu informarción ha sido cifrada. Para compartirla solo <br>
-            necesitas copiarla o compartirla con el botón de compartir.</p>
-          <p>4. Si tu destinatario quiere conocer el contenido de tu información, <br>
-            solo tiene que ingresar el cifrado en la opción de descifrar y tu mensaje podrá ser leido.</p>
+          <p id="pasos">Es muy sencillo, solo tienes que seguir los siguientes pasos:</p>
 
-        </main>
+          <p id="instruccion-1"><span>Inicia sesión</span>. Escribe en la caja de texto la <span>información</span> que quieras cifrar.</p>
+          <p id="instruccion-2">Es muy importante que pongas el <span>número de seguridad.</span>
+            No importa el número, solo que sea del número 1 en adelante.</p>
+            <p id="instruccion-3"> <span>¡Listo!</span> tu informarción ha sido cifrada. Para compartirla solo
+              necesitas copiarla o dar clic en el botón de <span>compartir.</span></p>
+              <p id="instruccion-4">Si tu destinatario quiere conocer el contenido de tu información,
+                solo tiene que <span>ingresar el cifrado</span> en la opción de descifrar, después tiene escribir el <span>número de seguridad</span> que le proporcionaste y tu mensaje podrá ser leido.</p>
+        </section>
+
 
 
     </section>
@@ -67,19 +67,19 @@
       <p id="welcome"></p>
       <h2>Cifremos tu información</h2>
       <input id="input-cifrar" type="text" placeholder="Escribe tu información"> <br>
-      <label for="">N° de Seguridad</label>
+      <label for="">N° Seguridad</label>
       <input id="number-security1" type="text" placeholder="Número">
       <button id="button-code">Cifrar</button>
-      <p id="result-code"></p>
       <button id="button-share">Compartir</button>
+      <p id="result-code"></p>
 
       <h3>Descifremos tu información</h3>
       <input id="input-descifrar" type="text" placeholder="Escribe tu código"> <br>
-      <label for="">N° de Seguridad</label>
+      <label for="">N° Seguridad</label>
       <input id="number-security2" type="text" placeholder="Número">
       <button id="button-decode">Descifrar</button>
-      <p id="result-decode"></p>
       <button id="button-copy">Copiar</button>
+      <p id="result-decode"></p>
 
 
     </section>
@@ -88,6 +88,7 @@
     <section>
 
     </section>
+    <footer>© 2019 Derechos Reservados. Aviso legal y política de privacidad</footer>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

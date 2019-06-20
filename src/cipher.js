@@ -13,20 +13,21 @@ window.cipher = {
         encryptNumberAscci = numberAscii; // Si la letra es un simbolo o numero
       }
       encryptStr += String.fromCharCode(encryptNumberAscci);
-    };
+    }
     return encryptStr;
   },
 
   decode : (offset, str) => {
+  str = str.toUpperCase();
   let decryptedNumberAscci = '';
   let decryptedStr = '';
 
   for(let i = 0; i < str.length; i++) {
     let backAscii = str.charCodeAt(i);
     if(backAscii >= 65 && backAscii <= 90){
-      decryptedNumberAscci = (backAscii - 65 - offset) % 26 + 65;
+      decryptedNumberAscci = (backAscii + 65 - offset) % 26 + 65;
     }else if (backAscii >= 97 && backAscii <= 120){
-      decryptedNumberAscci = (backAscii - 97 - offset) % 26 + 97;
+      decryptedNumberAscci = (backAscii + 97 - offset) % 26 + 97;
     }else {
       decryptedNumberAscci = backAscii;
     }

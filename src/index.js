@@ -15,15 +15,15 @@ const resultDecode = document.getElementById('result-decode');
 const getName = () => {
   description.classList.add('page-two');
   code.classList.remove('page-two');
-  welcome.innerHTML = inputName.value + '<br/>' + 'Bienvenido(a)';
+  welcome.innerHTML = inputName.value + ' ' + 'bienvenido(a)';
 }
 
 const getText = () => {
-  resultCode.innerHTML = 'Tu información ha sido cifrada exitosamente' + '<br/>' + window.cipher.encode(parseInt(offsetSecurity1.value), inputCode.value);
+  resultCode.innerHTML = 'Tu cifrado es:' + '<br/>' + window.cipher.encode(parseInt(offsetSecurity1.value), inputCode.value);
 }
 
 const getTextDecode = () => {
-  resultDecode.innerHTML = 'Tu código ha sido descifrado exitosamente' + '<br/>' + window.cipher.decode(parseInt(offsetSecurity2.value), inputDecode.value);
+  resultDecode.innerHTML = 'El mensaje es:' + '<br/>' + window.cipher.decode(parseInt(offsetSecurity2.value), inputDecode.value);
 
 }
 
