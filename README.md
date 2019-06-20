@@ -41,7 +41,7 @@ La aplicación busca resolver el problema de la seguridad en línea, para evitar
 
 En la propuesta de diseño se busca que el usuario tenga una experiencia intuitiva y de fácil manejo. Se busca que se sienta seguro en el sitio, por esta razón se decidió diseñar un espacio donde se le explique al usuario de manera breve el proyecto, así como un pequeño y fácil instructivo.
 
-Para el diseño de interfaz se busca solucionar con una idea minimalista y sencilla, que cumpla con el objetivo de la aplicación. Por lo que se decidió tener solo tres pantallas: **pantalla de inicio (pantalla para iniciar sesión e instructivo), pantalla de cifrado y pantalla de descifrado.**
+Para el diseño de interfaz se busca solucionar con una idea sencilla de pocos elementos, para evitar que el usuario tenga problemas al usar la aplicación. Por lo que se decidió tener solo tres pantallas: **pantalla de inicio (pantalla para iniciar sesión), pantalla de instrucciones, pantalla de cifrado y descifrado.**
 
 # Diseño de interfaz
 
