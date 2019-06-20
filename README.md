@@ -46,7 +46,7 @@ Para el diseño de interfaz se busca solucionar con una idea minimalista y senci
 
 A continuación se presentan las pantallas de testeo que se utilizaron con la aplicación Marvel:
 
-![](imagenes/prototipo_weencrypt-01.png)
+![](src/imagenes/prototipo_weencrypt-01.png)
 ![](imagenes/prototipo_weencrypt-02.png)
 ![](imagenes/prototipo_weencrypt-03.png)
 ![](imagenes/prototipo_weencrypt-04.png)
