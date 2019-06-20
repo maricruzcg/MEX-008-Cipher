@@ -209,13 +209,13 @@ header nav{
         #button-code{
           padding: 10px;
           margin: 15px 20px;
-          color: #2660EF;
+          color: #fff;
           font-size: 15px;
           font-family: 'Comfortaa', cursive;
-          background-color: #B3C9FF;
+          background-color: #EF3598;
           border-radius: 10px;
           white-space: nowrap;
-          border: 5px #B3C9FF;
+          border: 5px #EF3598;
           font-weight: bold;
         }
         #button-share{
@@ -302,7 +302,6 @@ header nav{
 
 footer{
   display: block;
-
   width: 100%;
   text-align: center;
   margin-top: 13%;
