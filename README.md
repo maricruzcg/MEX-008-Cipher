@@ -58,7 +58,11 @@ También a continuación se presenta el diagrama de flujo.
 
 Por último muestro pantallas de la aplicación:
 
-
+![](src/imagenes/ejemplo-07.png)
+![](src/imagenes/ejemplo-08.png)
+![](src/imagenes/ejemplo-09.png)
+![](src/imagenes/ejemplo-10.png)
+![](src/imagenes/ejemplo-11.png)
 
 
 
