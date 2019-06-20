@@ -2,7 +2,7 @@
 
 ## Definición
 
-En la actualidad el enviar mensajes y documentos  importantes por internet es una necesidad, sin embargo, el enviarlo por un algún servicio de mensajería o subirlo a cualquier servicio en la nube no nos garantiza al 100% que nuestra información sea confidencial y privada.
+En la actualidad el enviar mensajes y documentos  importantes por internet es una necesidad, sin embargo, el enviarlo por algún servicio de mensajería o subirlo a cualquier servicio en la nube no nos garantiza al 100% que nuestra información sea confidencial y privada.
 
 **WeEncrypt**  busca que sus usuarios se sientan seguros al enviar la información confidencial por internet. Ya que codifica la información o los links donde están alojados los documentos evitando de cualquier persona sin autorización pueda verlos o leerlos.
 
@@ -17,7 +17,7 @@ En la actualidad el enviar mensajes y documentos  importantes por internet es un
 3.	Cuando inicias sesión te direcciona de manera instantánea al área de cifrado. En la primera caja de texto puedes escribir la información que quieres cifrar.
 4.	En la segunda caja de texto debes de anotar el número de seguridad, este número es muy importante pues permitirá que tu información pueda ser descifrada después por tu destinatario. 
 5.	Y listo para terminar solo tienes que dar clic en el botón de cifrar.
-6.	 Te aparecerá una pantalla con la información cifrada y un botón de copiar o compartir.
+6.	Te aparecerá una pantalla con la información cifrada y un botón de copiar o compartir.
 7.	Si deseas compartirlo solo te pedirá el email de tu destinatario.
 8.	Si quieres descifrar la información solo necesitas ir al menú y seleccionar la opción de descifrar.
 9.	En la primera caja de texto anota el cifrado, la clave de seguridad que te proporciono tu contacto y da clic en el botón de descifrar.
@@ -36,17 +36,27 @@ En la actualidad el enviar mensajes y documentos  importantes por internet es un
 El objetivo del usuario con la aplicación es enviar de forma segura información confidencial de un link, la ubicación geográfica de objetos de valor a algún contacto, un mensaje, documentos, etc. el cual solo podrá ser descifrado con el código de seguridad que el mismo usuario le proporcione.
 
 La aplicación busca resolver el problema de la seguridad en línea, para evitar la filtración de información confidencial.
-Interfaz del usuario.
+
+# Interfaz del usuario.
 
 En la propuesta de diseño se busca que el usuario tenga una experiencia intuitiva y de fácil manejo. Se busca que se sienta seguro en el sitio, por esta razón se decidió diseñar un espacio donde se le explique al usuario de manera breve el proyecto, así como un pequeño y fácil instructivo.
 
-Para el diseño de interfaz se busca solucionar con una idea minimalista y sencilla, que cumpla con el objetivo de la aplicación. Por lo que se decidió tener solo tres pantallas: **pantalla de inicio (pantalla para iniciar sesión e instructivo), pantalla de cifrado y pantalla de descifrado.**
+Para el diseño de interfaz se busca solucionar con una idea sencilla de pocos elementos, para evitar que el usuario tenga problemas al usar la aplicación. Por lo que se decidió tener solo tres pantallas: **pantalla de inicio (pantalla para iniciar sesión), pantalla de instrucciones, pantalla de cifrado y descifrado.**
 
 # Diseño de interfaz
 
 A continuación se presentan las pantallas de testeo que se utilizaron con la aplicación Marvel:
 
+![](src/imagenes/prototipo_weencrypt-01.png)
+![](src/imagenes/prototipo_weencrypt-02.png)
+![](src/imagenes/prototipo_weencrypt-03.png)
+![](src/imagenes/prototipo_weencrypt-04.png)
+
 También a continuación se presenta el diagrama de flujo.
+
+![](src/imagenes/prototipo_weencrypt-05.png)
+
+Por último muestro pantallas de la aplicación:
 
 
 
